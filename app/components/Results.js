@@ -6,8 +6,12 @@ var Link = require('react-router-dom').Link;
 
 function Player (props) {
     return(
-
+        <div>Hello</div>
     )
+}
+
+Player.propTypes = {
+    label: PropTypes.string.isRequired
 }
 
 class Results extends React.Component {
